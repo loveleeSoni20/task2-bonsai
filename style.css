@@ -1,0 +1,450 @@
+:root{
+    --main-color:#01b289;
+    --secondary-color:#4c4d5f;
+}
+
+*{
+    margin:0px
+}
+
+body{
+    /* padding: 0px 160px; */
+    background-color: rgb(239, 238, 238);
+}
+
+.background_div{
+    position:absolute;
+    top:-100px;
+    right:0px;
+    height:600px;
+    width: 800px;
+    background-color: rgba(29, 213, 191, 0.107);
+    transform:rotateZ(45deg) scale(1.5);
+    border-radius: 20px;
+}
+.nav{
+    border-bottom: #4c4d5f 1px solid;
+    padding: 0px 0px 0px 10px;
+    height:70px;
+    display:flex;
+    flex-direction: row ;
+    align-items: center;
+    gap:1000px;
+    justify-content: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color: rgb(239, 238, 238);
+    z-index: 10;
+
+}
+
+.logo{
+    display:flex;
+    flex-direction:row;
+}
+
+.div2{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    justify-content: center;
+}
+
+.dropdown_one{
+    position:absolute;
+   top:8px;
+   left:270px;
+}
+
+.dropdown_two{
+    position:absolute;
+    top:8px;
+    left:122px;
+}
+
+.bonsai{
+    color:var(--main-color);
+    font-size: 40px;
+}
+
+.list{
+    width:570px;
+}
+
+
+li{
+    font-size: 25px;
+    margin-right:40px;
+}
+
+.nav_link{
+    text-decoration: none;
+    color:#4c4d5f;
+}
+
+.nav_link:hover{
+    color: black;
+    stroke: 2px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.249);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    color: #4c4d5f;
+}
+
+.login{
+    padding: 10px 15px;
+    background-color: white;
+    border: 2px solid #01b289;
+    border-radius: 4px;
+}
+
+.startfree{
+    color: white;
+    padding: 10px 15px;
+    background-color: #01b289;
+    border: 1px solid  #01b289;
+    border-radius: 4px;
+}
+
+section{
+    padding:130px 50px;
+}
+
+.headings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.pricing{
+    font-size: 28px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.free{
+    font-size: 12px;
+    color: #01b289;
+}
+
+.toggle{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap:10px;
+}
+
+.text_one{
+    color:#000000;
+    font-size: 22px;
+}
+
+.text_two{
+    color:#000000;
+    font-size: 18px;
+}
+
+.toggle_button{
+    height:25px;
+    width: 40px;
+}
+
+.cards{
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: row;
+    gap:120px;
+    justify-content: center;
+    align-items: center;
+    /* position:relative; */
+}
+
+.card_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:white;
+    width: 430px;
+    height:650px;
+    /* border: 6px solid rgb(66, 66, 66); */
+    border-radius: 5px;
+    border: 1px solid #4c4d5f6c;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.148);
+    position: sticky;
+    top:0;
+}
+
+.card_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:white;
+    width: 430px;
+    height:650px;
+    /* border: 6px solid rgb(66, 66, 66); */
+    border-radius: 5px;
+    border: 1px solid #4c4d5f6c;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.148);
+    position: sticky;
+    top:0;
+    overflow: hidden;
+}
+
+.card_one:first-child{
+    box-shadow: 5px 5px 24px #01b2899d;
+    background: 
+    radial-gradient(circle at 20% 10%, rgb(126, 255, 114) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgb(114, 156, 255) 0%, transparent 50%),
+    radial-gradient(circle at 50% 90%, rgb(114, 255, 213) 0%, transparent 50%)
+    ;
+}
+
+.card_two:first-child{
+    box-shadow: 5px 5px 24px #01b2899d;
+    background: 
+    radial-gradient(circle at 20% 10%, rgb(126, 255, 114) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgb(114, 156, 255) 0%, transparent 50%),
+    radial-gradient(circle at 50% 90%, rgb(114, 255, 213) 0%, transparent 50%)
+    ;
+}
+
+
+
+.card_one:last-child{
+    box-shadow: 5px 5px 24px #01b2899d;
+    background: 
+    radial-gradient(circle at 20% 10%, rgb(126, 255, 114) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgb(114, 156, 255) 0%, transparent 50%),
+    radial-gradient(circle at 50% 90%, rgb(114, 255, 213) 0%, transparent 50%)
+    ;
+}
+
+.card_two:last-child{
+    box-shadow: 5px 5px 24px #01b2899d;
+    background: 
+    radial-gradient(circle at 20% 10%, rgb(126, 255, 114) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgb(114, 156, 255) 0%, transparent 50%),
+    radial-gradient(circle at 50% 90%, rgb(114, 255, 213) 0%, transparent 50%)
+    ;
+}
+
+.card_one:hover, .card_two:hover{
+    background: 
+    radial-gradient(circle at 80% 10%, rgb(126, 255, 114) 0%, transparent 50%),
+    radial-gradient(circle at 20% 50%, rgb(114, 156, 255) 0%, transparent 50%),
+    radial-gradient(circle at 90% 90%, rgb(114, 255, 213) 0%, transparent 50%);
+    transition: all 0.5s;
+
+}
+/* .card_one_button:hover{
+    transform: scale(1.1);
+    color:#000000;
+    background-color: #02e6b0;
+    border: 1px solid  #4c4d5f;
+    transition: transform .6s;
+} */
+
+
+.card_two::before{
+    content: "Most Popular";
+    display:block;
+    height: 35px;
+    text-align: center;
+    background-color: #01b289;
+    font-size: 25px;  
+    color: white;
+    width: 200px;
+    padding:10px 20px;
+    transform: rotate(0deg);
+    position:absolute;
+    top: -70px;
+    left:310px;
+}
+
+.card_two:hover::before{
+    transform: rotate(45deg);
+    position:absolute;
+    top:36px;
+    transition: all 0.5s;
+}
+
+
+.service{
+    font-size:22px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:2px;
+    margin-top: 12px;
+}
+
+.tick{
+    height:18px;
+}
+.line{
+    border-color: #01b289;
+    color: #01b289;
+}
+
+.card_one_head{
+    color: #4c4d5f;
+    font-size: 25px;
+}
+
+.card_one_price{
+    font-size: 52px;
+}
+
+.card_one_span{
+    font-size:20px;
+}
+
+.card_one_button{
+    margin-top: 15px;
+    height:70px;
+    font-size: 18px;
+    background-color:#01b289;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.addon_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+.addon{
+    font-size: 40px;
+}
+
+.addon_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.addon_card{
+    color:#4c4d5f;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    width: 900px;
+    height: 70px;
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.058);
+} 
+
+.addon_name{
+    font-size: 35px;
+}
+
+.addon_desc{
+    font-size: 20px;
+}
+
+.price{
+    position:absolute;
+    top:50px;
+    left: 850px;
+    font-size: 50px;
+}
+
+.price_two{
+    position:absolute;
+    top:50px;
+    left: 870px;
+    font-size: 50px;
+}
+
+.price_three{
+    position:absolute;
+    top:50px;
+    left: 855px;
+    font-size: 50px;
+}
+
+
+.small_text{
+    position:absolute;
+    top:105px;
+    left: 870px;
+    font-size: 12px;
+}
+
+.addoncard_atag{
+    text-decoration: none;
+    color: #01b289;
+    font-size: 15px;
+    font-size: 18;
+}
+
+.learn_more{
+    height:10px;
+    width:10px;
+}
+
+.blue_div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 950px;
+    height:300px;
+    background-color: rgba(0, 255, 255, 0.129);
+    align-items: center;
+    gap: 500px;
+    margin: 40px;
+    padding: 30px;
+}
+
+h3{
+    font-size: 40px;
+    width: 500px;
+}
+    
+.heading_bluediv{
+    /* width:5500px; */
+    /* background-color: red; */
+}
+
+.card_one_buttontwo{
+    margin-top: 15px;
+    height:60px;
+    width:260px;
+    font-size: 18px;
+    background-color:#01b289;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+
+
